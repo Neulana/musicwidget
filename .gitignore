@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 .idea/
+musicwidget/
 env/
 build/
 develop-eggs/

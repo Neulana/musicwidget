@@ -23,7 +23,7 @@ def get_albums(user_id):
     import ncmbot
     import json
     import random
-    print 'vistor IP: ' + request.remote_addr
+    print('vistor IP: ' + request.remote_addr)
     rows = int(request.args.get('rows'))
     columns = int(request.args.get('columns'))
     play_lists = ncmbot.user_play_list(uid=user_id)
